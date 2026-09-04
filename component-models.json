@@ -31,7 +31,7 @@
       },
 	  {
         "component": "text",
-		"name": "header",
+		"name": "nav",
         "valueType": "string",
 		"description": "Site-relative path of the header fragment.",
         "label": "Header",
