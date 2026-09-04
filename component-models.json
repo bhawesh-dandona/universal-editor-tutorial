@@ -20,6 +20,30 @@
         "name": "keywords",
         "multi": true,
         "label": "Keywords"
+      },
+	  {
+        "component": "text",
+		"name": "template",
+        "valueType": "string",
+		"description": "Template identifier used for page-specific behavior and styling.",
+        "label": "Template Type"
+		"value": "",
+      },
+	  {
+        "component": "text",
+		"name": "header",
+        "valueType": "string",
+		"description": "Site-relative path of the header fragment.",
+        "label": "Header"
+		"value": "",
+      },
+	  {
+        "component": "text",
+		"name": "footer",
+        "valueType": "string",
+		"description": "Site-relative path of the footer fragment.",
+        "label": "Footer"
+		"value": "",
       }
     ]
   },
@@ -214,135 +238,5 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-      "id": "metadata",
-      "fields": [
-        {
-          "component": "select",
-          "name": "template",
-          "label": "Page Template",
-          "description": "Controls the page layout and template-specific styling.",
-          "valueType": "string",
-          "options": [
-            {
-              "name": "Standard",
-              "value": "standard"
-            },
-            {
-              "name": "Product",
-              "value": "product"
-            },
-            {
-              "name": "Campaign",
-              "value": "campaign"
-            },
-            {
-              "name": "Article",
-              "value": "article"
-            }
-          ]
-        },
-        {
-          "component": "text",
-          "name": "nav",
-          "label": "Header Fragment Path",
-          "description": "Repository-relative path of the header fragment.",
-          "valueType": "string",
-          "value": "/nav"
-        },
-        {
-          "component": "text",
-          "name": "footer",
-          "label": "Footer Fragment Path",
-          "description": "Repository-relative path of the footer fragment.",
-          "valueType": "string",
-          "value": "/footer"
-        },
-        {
-          "component": "select",
-          "name": "country",
-          "label": "Country",
-          "valueType": "string",
-          "options": [
-            {
-              "name": "Global",
-              "value": "global"
-            },
-            {
-              "name": "India",
-              "value": "in"
-            },
-            {
-              "name": "United States",
-              "value": "us"
-            },
-            {
-              "name": "United Kingdom",
-              "value": "uk"
-            }
-          ]
-        },
-        {
-          "component": "select",
-          "name": "locale",
-          "label": "Locale",
-          "valueType": "string",
-          "options": [
-            {
-              "name": "English, India",
-              "value": "en-IN"
-            },
-            {
-              "name": "Hindi, India",
-              "value": "hi-IN"
-            },
-            {
-              "name": "English, United States",
-              "value": "en-US"
-            },
-            {
-              "name": "English, United Kingdom",
-              "value": "en-GB"
-            }
-          ]
-        },
-        {
-          "component": "select",
-          "name": "theme",
-          "label": "Theme",
-          "valueType": "string",
-          "options": [
-            {
-              "name": "Default",
-              "value": "default"
-            },
-            {
-              "name": "Light",
-              "value": "light"
-            },
-            {
-              "name": "Dark",
-              "value": "dark"
-            }
-          ]
-        },
-        {
-          "component": "boolean",
-          "name": "hideHeader",
-          "label": "Hide Header",
-          "description": "Removes the global header from this page.",
-          "valueType": "boolean",
-          "value": false
-        },
-        {
-          "component": "boolean",
-          "name": "hideFooter",
-          "label": "Hide Footer",
-          "description": "Removes the global footer from this page.",
-          "valueType": "boolean",
-          "value": false
-        }
-      ]
-    }
+  }
 ]
