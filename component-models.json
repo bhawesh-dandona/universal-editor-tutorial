@@ -26,24 +26,24 @@
 		"name": "template",
         "valueType": "string",
 		"description": "Template identifier used for page-specific behavior and styling.",
-        "label": "Template Type"
-		"value": "",
+        "label": "Template Type",
+		"value": ""
       },
 	  {
         "component": "text",
 		"name": "header",
         "valueType": "string",
 		"description": "Site-relative path of the header fragment.",
-        "label": "Header"
-		"value": "",
+        "label": "Header",
+		"value": ""
       },
 	  {
         "component": "text",
 		"name": "footer",
         "valueType": "string",
 		"description": "Site-relative path of the footer fragment.",
-        "label": "Footer"
-		"value": "",
+        "label": "Footer",
+		"value": ""
       }
     ]
   },
