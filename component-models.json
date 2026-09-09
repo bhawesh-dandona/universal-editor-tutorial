@@ -238,5 +238,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "contentfragment",
+    "fields": [
+      {
+		"component": "text",
+		"valueType": "string",
+		"name": "fragmentPath",
+		"label": "Content Fragment Path",
+		"value": ""
+      }
+	]
   }
 ]

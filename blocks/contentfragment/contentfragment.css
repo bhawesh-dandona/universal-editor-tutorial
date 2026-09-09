@@ -1,0 +1,23 @@
+.contentfragment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contentfragment-table th,
+.contentfragment-table td {
+  border: 1px solid #d0d0d0;
+  padding: 8px;
+  text-align: left;
+}
+
+.contentfragment-table th {
+  background-color: #f5f5f5;
+}
+
+.contentfragment-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.contentfragment-error {
+  color: red;
+}
