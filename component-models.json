@@ -240,7 +240,7 @@
     ]
   },
   {
-    "id": "contentfragment",
+    "id": "content-fragment",
     "fields": [
       {
 		"component": "text",
