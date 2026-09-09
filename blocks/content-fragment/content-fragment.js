@@ -82,7 +82,9 @@ export default async function decorate(block) {
     const fragmentUrl = `${APP_CONFIG.contentFragmentHost}/api/assets${fragmentPath.replace('/content/dam', '')}.json`;
 
     const response =
-      await fetch('https://dummyjson.com/todos');
+      await fetch(fragmentUrl);
+	  // Uncomment below line for testing with a dummy json and comment above line
+	  // await fetch('https://dummyjson.com/todos');
 
     if (!response.ok) {
       throw new Error(
