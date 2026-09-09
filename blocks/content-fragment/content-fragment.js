@@ -1,3 +1,5 @@
+import { APP_CONFIG } from '../../scripts/config.js';
+
 function flattenObject(obj, prefix = '') {
   const flattened = {};
 
@@ -77,7 +79,7 @@ export default async function decorate(block) {
       return;
     }
 
-    const fragmentUrl = `/api/assets${fragmentPath.replace('/content/dam', '')}.json`;
+    const fragmentUrl = `${APP_CONFIG.contentFragmentHost}/api/assets${fragmentPath.replace('/content/dam', '')}.json`;
 
     const response =
       await fetch(fragmentUrl);
