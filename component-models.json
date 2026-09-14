@@ -250,5 +250,19 @@
 		"value": ""
       }
 	]
+  },
+  {
+	"id": "content-fragment-react",
+	"fields": [
+	  {
+		"component": "reference",
+		"name": "fragmentPath",
+		"label": "Content Fragment Path",
+		"description": "Select the published Content Fragment to display.",
+		"valueType": "string",
+		"multi": false,
+		"required": true
+	  }
+	]
   }
 ]

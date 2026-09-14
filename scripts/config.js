@@ -1,4 +1,4 @@
-export const APP_CONFIG = {
+export const window.APP_CONFIG = {
 
   /**
    * Content Fragment JSON endpoint
@@ -14,5 +14,9 @@ export const APP_CONFIG = {
    */
   contentFragmentHost:
     'https://author-p147979-e1511258.adobeaemcloud.com',
-
+	
+  contentFragmentReact: {
+    host: 'https://author-p147979-e1511258.adobeaemcloud.com',
+    apiBasePath: '/api/assets',
+  },
 };
